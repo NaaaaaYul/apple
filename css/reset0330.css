@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed
+}
+
+caption {
+    display: none;
+}
+
+/*기본적인 디폴트 설정들(간격 등)을 제거하는 css 파일*/
+/*main 파일에서 클래스로 추가해주면 사용할 수 있다*/
